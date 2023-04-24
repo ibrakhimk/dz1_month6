@@ -36,22 +36,3 @@ class MainActivity : AppCompatActivity() {
         }
     }
 }
-//        val intent: Intent =
-//            intent
-//        val name = intent.getStringExtra("key")
-//        binding.etText.setText(name)
-//        binding.btnSend.setOnClickListener {
-//            if (binding.etText.text.toString() == "") {
-//                Toast.makeText(this, "Поле не может быть пустым", Toast.LENGTH_SHORT).show()
-//            } else {
-//                Toast.makeText(this, "С первого на второй", Toast.LENGTH_SHORT).show()
-//                val questionIntent = Intent(
-//                    this@MainActivity,
-//                    MainActivity2::class.java
-//                )
-//                questionIntent.putExtra("key", binding.etText.text.toString())
-//                startActivityForResult(questionIntent, 2)
-//            }
-//        }
-//    }
-//}
